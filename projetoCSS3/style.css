@@ -1,0 +1,46 @@
+body {
+    background-image: url(imagens/fundo.png);
+    font-family: times new roman, arial, sans-serif;
+}
+#imgfundo {
+    width: 100%;
+    height: auto;
+}
+.clear {
+    clear: both;
+}
+#geral {
+    width: 900px;
+    background: rgb(216, 216, 209);
+    padding: 15px;
+    margin: auto;
+    height: 100vh;
+    
+    
+}
+.geral2{
+    padding: 10px;
+    width: auto;
+    font-size: 20px;
+    background-color:rgb(187, 187, 178) ;
+    border: 5px;
+    
+}
+a{
+    color: rgb(101, 20, 177);
+    text-decoration: none;
+    text-decoration: bold;
+    padding: 5px;
+}
+h2 {
+     font-size: 20px;
+     color: darkkhaki;
+}
+#rodape{
+    color:  darkkhaki;
+    background-color: rgb(207, 207, 200);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10PX;
+}
