@@ -59,6 +59,18 @@ ul {
 #primario img{
     width: 100%;
 }
+#primario .fundo-listrado2 .caixa-lateral{
+    border: 1px solid #f3f3f3;
+    padding: 3.5px;
+}
+#primario .fundo-listrado2 .caixa-lateral img{
+    width: 30%;
+    float: left;
+}
+#primario .fundo-listrado2 .caixa-lateral a{
+    font-size: 0.8em;text-decoration: none;
+    
+}
 #secundario{ /*secundario................................*/
     width: 270px;
 
@@ -67,6 +79,18 @@ ul {
 }
 #secundario img{
     width: 100%;
+}
+#secundario .fundo-listrado2 .caixa-lateral{
+    border: 1px solid #f3f3f3;
+    padding: 5px;
+}
+#secundario .fundo-listrado2 .caixa-lateral img{
+    width: 30%;
+    float: left;
+}
+#secundario .fundo-listrado2 .caixa-lateral a{
+    font-size: 0.8em;text-decoration: none;
+    
 }
 
 
