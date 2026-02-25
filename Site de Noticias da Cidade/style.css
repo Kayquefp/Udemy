@@ -1,0 +1,154 @@
+*{
+    padding: 0; margin: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(imagens/fundo.png) repeat-x;
+} 
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+/*inicio cabeçalho*/
+#cabeçalho{
+    height: 150px;
+    padding: 10px;
+    background: url(imagens/detalhe-topo.png) no-repeat top right;
+    
+}
+.logo{
+    width: 152px;
+    height: 66px;
+    text-indent: -3000px;
+    background: url(imagens/logo.png) no-repeat center ;
+}
+ul {
+    margin: 0; padding: 0;
+    list-style: none;
+}
+#cabeçalho ul {
+    background: #b10333; float: left;
+     margin-top: 70px;
+}
+#cabeçalho ul li {
+    
+    float: left;
+}
+#cabeçalho ul a {
+    display: block;
+    font-size: 0.9em;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    color: white;
+    background: url(imagens/divisor.png) no-repeat left; 
+
+    
+} /*fim cabeçalho*/
+
+/*inicio conteudo central*/
+#conteudo{
+    background: #f5f5f5;
+    margin-top: 65px;
+}
+#primario{ /*primario*/
+    width: 270px;
+   
+    float: right;
+    margin: 0 0 20px 15px;
+}
+#primario img{
+    width: 100%;
+}
+#secundario{ /*secundario................................*/
+    width: 270px;
+
+    float: right;
+    margin: 0 0 20px 15px;
+}
+#secundario img{
+    width: 100%;
+}
+
+
+#lateral{ /*lateral ....................................*/
+    width: 180px;
+    
+    float: right;
+    margin: 0 0 20px 0px;
+}
+#lateral ul li a{
+    text-decoration: none;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px solid #f3f3f3;
+    
+    
+}
+#lateral ul li a:link, a:visited{
+    color: black;    
+
+}
+#lateral ul li a:hover{
+    background: url(imagens/marcador.png) no-repeat left center;
+    color: #adacac;
+    padding-left: 25px;
+    width: 100%;
+}
+
+
+#lateral ul li{
+    text-indent: 5px;
+    
+    
+}
+.caixa-lateral{
+    background: white;
+}
+/*fim conteudo central*/
+
+/*rodape*/
+#rodape {
+    margin: 0 auto;
+    color: white;
+    background:#3457b8;
+    padding: 20px;
+}
+
+/*formatações de multiplas utilidades*/
+
+.fundo-listrado{
+    background: url(imagens/fundo-caixa.png);
+    padding: 10px;
+}
+.fundo-listrado2{
+    background: url(imagens/fundo-caixa.png);
+    padding: 10px;
+    margin-top: 10px;
+}
+h2{
+    margin-bottom: 10px ;
+    font-size: 1.3em;
+    background-color: #14307c;
+    color: white;
+    padding-left: 5px;
+}
+h3{
+    font-size: 0.8em;
+    background-color: #c20808;
+    color: white;
+    padding: 5px;
+}
+.email{
+    padding: 10px;
+    width: 80%;
+}
+.cadastrar{
+    padding: 10px;
+    color: white;
+    background: #c20808;
+    border: 1px solid black;
+}
+form{
+    padding: 10px;
+}
